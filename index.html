@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Turismo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>EBAC Turismo</h1>
+            <ul>
+                <li>
+                    <a href="#">Viagens</a>
+                </li>
+                <li>
+                    <a href="#">Pacotes</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="mundo">
+        <div class="container">
+            <h1>Conheça o Mundo!</h1>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./images/pizza-1177940_640.jpg">
+                        <div class="carousel-caption">
+                            Itália
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./images/eifeltower-1745435_640.jpg">
+                        <div class="carousel-caption">
+                            França
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="d-block w-100" src="./images/palace-530055_1280.jpg">
+                        <div class="carousel-caption">
+                            Inglaterra
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacotes">
+        <div class="container">
+            <h1>Pacotes</h1>
+            <div class="row">
+                    <div class="cardbox col-lg-4 col-md-6 col-sm-12">
+                        <article class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>Itália</h2>
+                            </div>
+                            <img src="./images/pizza-1177940_640.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Roma</h4>
+                                <h6 class="card-subtitle">R$ 14.900,00 ou 12 x R$ 1.050,00</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias totam minus earum asperiores. Ex quisquam culpa deleniti provident accusamus beatae numquam repudiandae eum, laudantium rem dolorem distinctio? Optio, fugiat odio?</p>
+                                <a href="#" class="btn btn-primary">Adquira</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="cardbox col-lg-4 col-md-6 col-sm-12">
+                        <article class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>França</h2>
+                            </div>
+                            <img src="./images/eifeltower-1745435_640.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Paris</h4>
+                                <h6 class="card-subtitle">R$ 14.900,00 ou 12 x R$ 1.050,00</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias totam minus earum asperiores. Ex quisquam culpa deleniti provident accusamus beatae numquam repudiandae eum, laudantium rem dolorem distinctio? Optio, fugiat odio?</p>
+                                <a href="#" class="btn btn-primary">Adquira</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="cardbox col-lg-4 col-md-6 col-sm-12">
+                        <article class="card text-bg-dark">
+                            <div class="card-header">
+                                <h2>Inglaterra</h2>
+                            </div>
+                            <img src="./images/palace-530055_1280.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Londres</h4>
+                                <h6 class="card-subtitle">R$ 14.900,00 ou 12 x R$ 1.050,00</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias totam minus earum asperiores. Ex quisquam culpa deleniti provident accusamus beatae numquam repudiandae eum, laudantium rem dolorem distinctio? Optio, fugiat odio?</p>
+                                <a href="#" class="btn btn-primary">Adquira</a>
+                            </div>
+                        </article>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
